@@ -92,15 +92,15 @@ $fb = \OAuth::consumer('Facebook', 'http://url.to.redirect.to');
 ## Usage examples
 
 
-### Get credits of account:
+### Search for text on internet:
 
 ```php
 //Search text with 10 full comparisons
 $text = "Search if this text is plaigarism";
-Copyscape::getAcc($text,10);
+Copyscape::searchInternetText($text,10);
 ```
 
-### Search for text on internet
+###  Get credits of account:
 
 ```php
 Copyscape::getCredits();
