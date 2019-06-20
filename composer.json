@@ -1,0 +1,36 @@
+{
+    "name": "marcosper/copyscape-laravel",
+    "description": "Copyscape service provider for Laravel 5",
+    "keywords": ["CopyScape", "plagiarism", "laravel", "php"],
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "marcosper/copyscape-api": "^1.0.1"
+    },
+    "require-dev": {
+        "illuminate/support": "~5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcos Per",
+            "email": "marcosperg@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Marcosper\\CopyscapeLaravel\\CopyscapeServiceProvider"
+            ],
+            "aliases": {
+                "Copyscape" : "Marcosper\\CopyscapeLaravel\\Facades\\Copyscape"
+            }
+        }
+    },
+    "autoload": {
+        "psr-0": {
+            "Marcosper\\CopyscapeLaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
