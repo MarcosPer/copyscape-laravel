@@ -95,8 +95,6 @@ $fb = \OAuth::consumer('Facebook', 'http://url.to.redirect.to');
 ### Get credits of account:
 
 ```php
-use Marcosper\CopyscapeLaravel\Facades\Copyscape;
-
 //Search text with 10 full comparisons
 $text = "Search if this text is plaigarism";
 Copyscape::getAcc($text,10);
@@ -105,7 +103,5 @@ Copyscape::getAcc($text,10);
 ### Search for text on internet
 
 ```php
-use Marcosper\CopyscapeLaravel\Facades\Copyscape;
-
 Copyscape::getCredits();
 ```
