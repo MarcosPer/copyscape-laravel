@@ -1,5 +1,15 @@
 # CopyScape for Laravel 5
 
+[![Latest Version on Packagist][ico-packagist]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+
+[ico-packagist]: https://img.shields.io/packagist/v/marcosper/copyscape-laravel.svg?style=flat-square
+[link-packagist]: https://packagist.org/packages/marcosper/copyscape-laravel
+
+[ico-license]: https://img.shields.io/badge/license-GNU_GPLv3-brightgreen.svg?style=flat-square
+
+
+## Introduction
 copyscape-laravel is a laravel 5 service provider to easily Copyscape premium API using [php-libCopyScape](https://github.com/MarcosPer/php-libCopyScape)
 
 ---
