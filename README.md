@@ -61,6 +61,7 @@ Then in ``.env`` file add
 COPYSCAPE_USER=copyscape_user
 COPYSCAPE_KEY=copyscape_key
 COPYSCAPE_SSL=false || true(for use systems cacert.pem) or route to use custom cacert.pem 
+COPYSCAPE_DEBUG=true
 ```
 ## Usage
 
