@@ -4,7 +4,7 @@ namespace Marcosper\CopyscapeLaravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class CopyScape extends Facade
+class Copyscape extends Facade
 {
     protected static function getFacadeAccessor() { return 'copyscape'; }
 }

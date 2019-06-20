@@ -33,7 +33,7 @@ class CopyscapeServiceProvider extends ServiceProvider {
         $this->app->bind('copyscape', function($app){
             $copyscape = new Copyscape();
             $copyscape->addCredentials(config('copyscape.username'),config('copyscape.key'));
-            if(!config('copyscape.ssl',false)) $copyscape->forceSSL(config('copyscape.ssl'));
+            if(config('copyscape.ssl',true)) $copyscape->forceSSL(config('copyscape.ssl'));
             $copyscape->setDebug(config('copyscape.debug'));
             $copyscape->ignoreDomain(Request::getHost());
             return $copyscape;
